@@ -12,6 +12,15 @@ Library sources are available at [bitbucket.org/zserge/jsmn][2]
 The web page with some information about jsmn can be found at
 [http://zserge.com/jsmn.html][3]
 
+my\_test
+--------
+Build using command:
+> gcc -o my\_test -c jsmn.c my\_test.c
+
+This will create the executable, my\_test.  Run:
+> $ ./my\_test
+
+
 Philosophy
 ----------
 
