@@ -22,7 +22,7 @@ int main()
 	// switch case on resultCode; exit on error
 	if( resultCode < 0 )
 	{
-		puts( "Parsing error.");
+		printf( "Parsing error: %d", resultCode );
 		return 1;
 	} // if resultCode
 	else
